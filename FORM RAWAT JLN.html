@@ -1,0 +1,45 @@
+<!-- Ini html buat form yang bakal dimasukin ke php admin  -->
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" href="rawat jalan.css">
+  <head>
+    <title>Website Rawat Jalan</title>
+    <style>
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Form Rawat Jalan</h1>
+    </div>
+    <div class="judul" id="content">
+      <h2>Rawat Jalan</h2>
+      <form>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan Nama Anda">
+
+        <label for="jadwal_dokter">Pilih Nama Dokter:</label>
+        <tr>
+        <div class="dokter"> 
+          <td>
+            <select id="jenjang" name="jenjang_pdd">
+              <option value="Dr">Dr.sasa</option>
+              <option value="S2">Dr.dada</option>
+              <option value="S1">Dr.zaza</option>
+              <option value="D3">Dr.jaja</option>
+              <option value="SMA">Dr.kaka</option>
+            </select>
+          </td>
+        </div>
+        </tr>
+
+        <div class="jadwal">
+          <label for="jadwal_rawat_jalan">Jadwal Pengambilan Rawat Jalan:</label>
+          <input type="date" id="jadwal_rawat_jalan" name="tanggal">
+  
+          <input type="submit" value="Submit">
+        </form>
+        </div>
+    </div>
+  </body>
+</html>

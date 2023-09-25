@@ -1,0 +1,41 @@
+:root
+*
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family:'Times New Roman', Times, serif;
+  color: #ffffff;
+}
+
+body {
+  background-color: #a83e3e;
+  z-index: 10;
+}
+
+/* ini desain buat web RS AJENG */
+nav {
+  background-color: #22a2c2; /* warna biru */
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+
+
+.logo img {
+  width: 50px; /* lebar logo */
+  height: 50px; /* tinggi logo */
+}
+
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+}
